@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.temur{
+    background-color: #011627;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+.tem{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation: tem .5s infinite;
+    box-shadow: 0px 0px 10px #264653;
+    background-color: red;
+}
+.tem2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+animation: tem2 .5s infinite;
+background-color: yellow;
+}
+.tem4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+animation: tem4 .5s infinite;  
+background-color: green;
+}
+/* @keyframes tem {
+    0%{
+        background-color: #300;
+    }
+    55%{
+        background-color: #300;
+    }
+    65%{
+        background-color: #f00;
+    }
+    95%{
+        background-color: #f00;
+    }
+    100%{
+        background-color: #300;
+    }
+    
+} */
+/* @keyframes tem2 {
+    0%{
+        background-color: #430;
+    }
+    45%{
+        background-color: #430;
+    }
+    55%{
+        background-color: #fc0;
+    }
+    80%{
+        background-color: #430;
+    }
+    100%{
+        background-color:#430 ;
+    }
+    
+}
+@keyframes tem3 {
+    0%{
+        background-color: #030;
+    }
+    55%{
+        background-color: #0a0;
+    }
+    65%{
+        background-color: #0a0;
+    }
+    95%{
+        background-color: #030;
+    }
+    100%{
+        background-color:#030 ;
+    }
+    
+} */
+
+
+
+
+@keyframes tem{
+    0%{opacity: 10;    }
+    100%{
+        background-color: red; opacity: 0;
+    }
+}
+@keyframes tem2 {
+    0%{opacity: 10;    }
+    100%{
+        background-color: yellow; opacity:  0;
+    }
+}
+@keyframes tem4{
+    0%{opacity: 10;    }
+    100%{
+        background-color: green; opacity: 0;
+    }
+}
+/* .tem,.tem2,.tem4{
+    animation-duration: s;
+} */
+.tem{
+    animation-duration: 1s;
+}
+.tem2{
+    animation-duration: 2s;
+}
+.tem4{
+    animation-duration: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
